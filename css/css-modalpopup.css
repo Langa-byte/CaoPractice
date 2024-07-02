@@ -1,0 +1,52 @@
+﻿.ProgChangesClass {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#ProgChangesDivContent {
+    height: 70%;
+    width: 70%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: scroll;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#prog-changes-header {
+    background-color: #73BA63;
+    color: white;
+    height: 2em;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#prog-changes-content {
+    margin-left: 5px;
+    height: 80%;
+}
+
+#prog-changes-button {
+    background-color: #73BA63; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 1em;
+    margin-left: 10px;
+}
+

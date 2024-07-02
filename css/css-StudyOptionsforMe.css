@@ -1,0 +1,383 @@
+﻿/************************************************************************************
+	Author		: Shalina Naicker
+	Create Date : 06/04/2010
+	REQ/HD		: 19828
+	Description : This file contains the styles for the Study Options for me section
+************************************************************************************/
+
+/***************************************************************
+    Study Options for me
+****************************************************************/
+ .SubjectSelection-ExamType
+{
+    width:460px;
+	position:relative;
+	height:50px;	
+}
+ .SubjectSelection-ExamTypelist
+{
+	width:250px;	
+	float:right;	
+	margin-right:20px;
+}
+ .SubjectSelection-label-ExamType
+{
+	width:150px;	
+	float:left;
+	text-align:right;
+}
+ #Subjectlabel
+{
+	width:150px;	
+	float:left;
+}
+ #Subject-input-div
+{
+	width:250px;	
+	float:right;	
+	margin-right:20px;
+}
+.StudyOptions-buttons-div
+{
+	margin-right:25px;
+	float:right;
+}
+
+.StudyOptions-error-message2
+{
+	min-height:23px; 
+    max-height:125px; 
+    border: 1px solid #73BA63;
+    background-color: #FFFACD;
+    margin:0px 10px 10px 10px;
+    padding: 7px 0px 0px 5px;
+    font-weight:bold;
+    font-size:13px;
+    float:left;
+}
+
+.StudyOptions-error-message
+{
+	min-height:23px;
+	border: 1px solid #73BA63;
+	background-color: #FFFACD;
+	
+	padding: 7px 0px 0px 5px;	
+	font-weight:bold;
+	font-size:13px;	
+}
+.StudyOptions-grid-div
+{
+	width:460px;
+	margin: 0px 0px 5px 30px;
+}
+#StudyOptions-undivided-container-div {
+	margin-top:3px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:15px;
+	width:908px;
+
+	/*border:1px solid #818181;
+	background:url(../../images/single-column-main.png) repeat-y;*/
+	position:relative;
+}
+
+#StudyOptions-Acronymns
+{
+	float:right;
+	text-align:center;
+	margin-top:30px;
+	margin-left:30px;
+}
+
+#StudyOptions-examresults-container {
+	margin-top:3px;
+	margin-left:20px;
+	margin-right:auto;
+	
+	width:900px;
+	border:1px solid #818181;
+}
+
+.StudyOptions-printdetails-main
+{
+	display:none;
+}
+
+#StudyOptions-CAOLogo-div 
+{
+	display:none;
+}
+
+#StudyOptions-headertext
+{
+	display:none;
+
+}
+ #StudyOptions-headertext2
+{
+	display:none;
+}
+
+#StudyOptions-date
+{
+	display:none;
+	
+}
+#StudyOptions-DateTitle
+{
+	display:none;
+	
+}
+
+#StudyOptions-PrintDetailsMain
+{
+	display:none;
+}
+#StudyOptions-ChoicesPR
+{
+	display:none;
+}
+
+#StudyOptions-closingmsg
+{
+	display:none;
+	font-size:16px;
+}
+
+#StudyOptions-footer
+{
+	display:none;
+}
+
+/***************************************************************
+    This section allows print styles to be applied when printing 
+	pages. All CSS files in the App_Themes directory are automatically 
+	included in the of the document as tags. If one of these files is a print stylesheet 
+	you don't get the opportunity to tell ASP.NET that the media attribute for the file 
+	should be print, therefore @media is used to embed the styles for printing into the document.
+    
+****************************************************************/
+
+@media print 
+{
+  .StudyOptions-printdetails-main
+   {
+	display:block;
+   }
+  
+ #StudyOptions-CAOLogo-div 
+   {
+	 display:block;
+	 float:left;
+	 width:300px;					
+	 margin-left :15px;
+   }
+		
+#StudyOptions-headertext
+{
+	display:block;
+	float:right;
+	width:400px;
+	text-align:right;
+	font-size:16px;
+	color:Black;
+}
+#StudyOptions-headertext2
+{
+	display:block;
+	font-size : 20px;
+	text-align:center;
+	color:Black;
+}
+
+#StudyOptions-header
+{
+	height: 120px;
+}
+
+		
+ #StudyOptions-PrinterFriendly
+ {
+	display: none;
+ }
+ 
+ #logo a
+ {
+	display:none;
+ }
+ 
+ #pagetitle
+ {
+	display:none;
+ }
+
+#StudyOptions-date 
+{
+	display : block;
+	color:Black;
+}
+
+#StudyOptions-DateTitle
+{
+	display:block;
+	width:500px;					
+    margin-left :15px;
+    font-size :20px;     
+    color:Black;
+}
+#StudyOptions-message
+{
+ display:none;
+}
+
+#StudyOptions-PrintDetails 
+{
+	width : 800px;
+	margin-left : 15px;
+	font-size:20px;
+	color:Black;
+
+	}
+
+#StudyOptions-PrintDetailsMain
+{
+	display :block;
+	margin-left: 15px;	
+	line-height:1.5em;
+	color:Black;
+}	
+
+#StudyOptions-SubjectsPR
+{
+	display:block;
+	font-size : 20px;
+	width : 800px;
+	margin-left :30px;
+	color:Black;
+	height:auto;
+
+}
+
+.StudyOptions-Subjects-div
+{
+	display: block;
+	width : 800px;
+	line-height:1em;
+	color:Black;
+	height:auto;		
+}
+
+#Dynamic-side2-three-column
+{
+	display:none;
+}
+
+#StudyOptions-Docheader
+{
+	display:none;
+}
+#StudyOptions-documents
+{	
+	display:none;
+}
+
+#StudyOptions-choices-div
+{
+	display:none;
+}
+
+#content-main-three-column
+{
+	display:none;
+}
+
+#content-side1-three-column
+{
+	display:none;
+}
+
+#onlineapp-choices-container-div
+{
+	border :none;
+	display:none;
+}
+
+#onlineapp-long-column-main
+{
+	border :none;
+	display:none;
+}
+
+#StudyOptions-closingmsg
+{
+	display:block;	
+	font-size: 20px;
+	color:Black;	
+	
+}
+#StudyOptions-footer
+{	
+	display:block;
+	text-align:center;
+	font-size:14px;
+	position:fixed;
+	bottom: 0;
+	left : 25%;
+	color:Black;
+}
+#footer
+{
+	display : none;
+}
+
+#top-information-home
+{
+	border:none;
+}
+
+#top-information-phone
+{
+	border:none;
+	
+}
+#CareerDirection-btns
+{
+	display:none;
+}
+
+.StudyOptions-noresults-div
+{
+	display:none;
+	border:none;
+}
+
+.onlineapp-error-message
+{
+	display:none;
+	border:none;
+}
+
+#StudyOptions-undivided-container-div
+{
+	display:none;
+	border:none;
+}
+#ProgDetails-CareerDir
+{
+	display:none;
+}
+
+#StudyOptions-gvResults-div
+{
+	display:none;
+	border:none;
+}
+#ProgResults-btns
+{
+	display:none;
+}
+}
+
+

@@ -1,0 +1,345 @@
+﻿/***************************************************************
+    This file contains the styles for the applicant section
+****************************************************************/
+
+/***************************************************************
+    Online Application 
+****************************************************************/
+#my-app-content-main-three-column {
+	width: 50%;
+	float: left;
+	margin-left: 25px;
+}
+
+.myapp-finaid-container-div {
+	width: 460px;
+	position: relative;
+	margin-left: 5px;
+}
+
+.myapp-info-div
+{
+	width:460px;
+	padding:5px 10px 5px 10px;
+}
+
+.myapp-header-div
+{
+	background-color:#73BA63;
+	color:White;
+	width:100%;
+	padding-left:10px;
+	position:relative;
+	float:left;
+}
+
+.myapp-choice-container-div 
+{
+  height:100%;	
+  width:450px;
+  position:relative;
+  margin-left:5px;
+
+}
+
+.myapp-choiceid-div {
+	width:40px;
+	float:left;
+	padding-top: 5px;
+	margin-left: 1px;
+	height:100%;
+	position:relative;
+	
+}
+
+.myapp-choicetext-div 
+{
+  
+    height:auto;	
+    width:400px;
+	float:left;
+	padding-top : 5px;
+	position:relative;
+}
+.myapp-tracker-container-div 
+{
+	width:460px;
+	position:relative;
+	margin-left:5px;
+}
+
+.myapp-trackerdate-div {
+	width:100px;
+	float:left;
+	padding-top: 5px;
+	margin-left: 1px;
+	height:20px;
+	
+}
+
+.myapp-trackertext-div 
+{
+	width:300px;
+	float:left;
+	padding-top : 5px;
+	padding-bottom: 5px;
+	
+}
+.myapp-trackerDelMethod-div 
+{
+	width:50px;	
+	float:left;
+	padding-top : 5px;
+	padding-bottom: 5px;
+	
+}
+#myapp-CAOLogo-div 
+{
+	display:none;
+}
+
+#myapp-headertext
+{
+	display:none;
+
+}
+ #myapp-PrinterFriendly
+ {
+	display: block;
+	margin-left : 80px;
+	width:50px;
+ }
+ #myapp-headertext2
+{
+	display:none;
+}
+
+#myapp-date
+{
+	display:none;
+	
+}
+#myapp-DateTitle
+{
+	display:none;
+	
+}
+
+#myapp-PrintDetailsMain
+{
+	display:none;
+}
+#myapp-ChoicesPR
+{
+	display:none;
+}
+
+#myapp-closingmsg
+{
+	display:none;
+	font-size:16px;
+}
+
+#myapp-footer
+{
+	display:none;
+}
+
+
+
+/***************************************************************
+    This section allows print styles to be applied when printing 
+	pages. All CSS files in the App_Themes directory are automatically 
+	included in the of the document as tags. If one of these files is a print stylesheet 
+	you don't get the opportunity to tell ASP.NET that the media attribute for the file 
+	should be print, therefore @media is used to embed the styles for printing into the document.
+    
+****************************************************************/
+
+@media print {
+  
+ #myapp-CAOLogo-div 
+   {
+	 display:block;
+	 float:left;
+	 width:300px;					
+	 margin-left :15px;
+   }
+		
+#myapp-headertext
+{
+	display:block;
+	float:right;
+	width:400px;
+	text-align:right;
+	font-size:16px;
+	color:Black;
+}
+#myapp-headertext2
+{
+	display:block;
+	font-size : 20px;
+	text-align:center;
+	color:Black;
+
+}
+
+#myapp-header
+{
+	height: 120px;
+}
+
+		
+ #myapp-PrinterFriendly
+ {
+	display: none;
+ }
+ 
+ #logo a
+ {
+	display:none;
+ }
+ 
+ #pagetitle
+ {
+	display:none;
+ }
+
+#myapp-date 
+{
+	display : block;
+	color:Black;
+}
+
+#myapp-DateTitle
+{
+	display:block;
+	width:500px;					
+    margin-left :15px;
+    font-size :20px;     
+    color:Black;
+}
+#myapp-message
+{
+ display:none;
+}
+
+#myapp-PrintDetails 
+{
+	width : 800px;
+	margin-left : 15px;
+	font-size:20px;
+	color:Black;
+
+	}
+
+#myapp-PrintDetailsMain
+{
+	display :block;
+	margin-left: 15px;	
+	line-height:1.5em;
+	color:Black;
+}	
+
+#myapp-ChoicesPR
+{
+	display:block;
+	font-size : 20px;
+	width : 800px;
+	margin-left :30px;
+	color:Black;
+	height:auto; 
+
+}
+
+.myapp-choicetext-div
+{
+	display: block;
+	width : 800px;
+	line-height:1em;
+	color:Black;
+	height:auto;
+}
+
+#Dynamic-side2-three-column
+{
+	display:none;
+}
+
+#myapp-Docheader
+{
+	display:none;
+}
+#myapp-documents
+{	
+	display:none;
+}
+
+#myapp-choices-div
+{
+   display:none;
+}
+
+#content-main-three-column
+{
+	display:none;
+}
+
+#content-side1-three-column
+{
+	display:none;
+}
+
+#content-container-two-column-working-personality
+{
+	border : none;
+	display:none;
+}
+#my-app-content-main-three-column {
+	display:none;
+}
+
+
+#myapp-closingmsg
+{
+	display:block;	
+	font-size: 20px;
+	color:Black;	
+	border:solid 2px white;	
+	
+}
+#myapp-footer
+{
+	
+	display:block;
+	text-align:center;
+	font-size:14px;
+	position:fixed;
+	bottom: 0;
+	left : 25%;
+	color:Black;
+	
+}
+#footer
+{
+	display : none;
+}
+
+#top-information-home
+{
+	border:none;
+}
+
+#top-information-phone
+{
+	border:none;
+	
+}
+
+
+
+
+
+}
+
+
